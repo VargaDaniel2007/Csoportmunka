@@ -5,7 +5,7 @@
 ## Tagok
 - Dani <br>
     - Feladatok: <br>
-        - Legördülős menű (css & index)<br>
+        - Legördülős menü (css & index)<br>
         - CSS <br>
         - 2 weboldal
 

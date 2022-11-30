@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(200, 200, 255);
+    font-size: 20px;
+}
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 100%;
+    
+}
+
+/* DROPDOWN BEÁLLÍTÁSOK*/
+.dropdown-button{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black; /*Talán háttérrel azonos vagy kicsit különbözőnek kell lennie*/
+    color: white;           /*Később átszínezni*/
+    font-size: 30px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    
+    margin-left: 300px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: gray; /*Később változtatni*/ 
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropdown-button{
+    background-color: grey; /*Később változtatni*/ 
+}
+/*------------------------------*/
+
+#fooldalon{
+    color: rgb(235, 235, 235); /*Még változtatásra várhat*/
+    
+}
+
+.fooldal-link{
+    float: left;
+    margin-top: 5px;
+
+}
