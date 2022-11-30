@@ -1,15 +1,20 @@
 # Csoportmunka
 
 ## Téma
-
+    3-3 gépes-telefonos játék bemutatása
 ## Tagok
 - Dani <br>
-    - Feladatok:
-    
+    - Feladatok: <br>
+        - Legördülős menű (css & index)<br>
+        - CSS <br>
+        - 2 weboldal
 
 - Gábor <br>
-    - Feladatok:
+    - Feladatok: <br>
+        - 2 weboldal
+
 
 - Dávid <br>
-    - Feladatok:
+    - Feladatok: <br>
+        - 2 weboldal
 
