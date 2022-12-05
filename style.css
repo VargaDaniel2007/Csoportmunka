@@ -1,19 +1,43 @@
 body{
-    background-color: rgb(200, 200, 255);
+    background-color: rgb(153, 204, 255);
     font-size: 20px;
 }
-
-.menu{
-    background-color: rgb(0, 0, 0);
-    font-size: 30px;
-    width: 100%;
-    
+/*Általános CSS kódok*/
+.text-center{
+    text-align: center;
 }
+
+.jobbra-igazit{
+    float: right;
+}
+
+.text-shadow-black{
+    text-shadow: black 3px 2px;
+}
+.text-shadow-white{
+    text-shadow: white 1px 0px;
+}
+
+/*------------------ Általános*/
+
+/*Header/Menu CSS kódok*/
+.menu{
+    background-color: rgb(0, 102, 255);
+    font-size: 30px;
+    width: 101%;
+    margin: -8px;
+    /* position: fixed; */
+    height: 80px;
+    box-shadow: 0px 0px 16px 0px;
+}
+/*--------------------- Menu*/
+
+/*Főoldal CSS kód*/
 
 /* DROPDOWN BEÁLLÍTÁSOK*/
 .dropdown-button{
     font-family: 'Times New Roman', Times, serif;
-    background-color: black; /*Talán háttérrel azonos vagy kicsit különbözőnek kell lennie*/
+    background-color: transparent;  /*Ha esetleg színt váltani*/
     color: white;           /*Később átszínezni*/
     font-size: 30px;
     padding: 15px;
@@ -23,8 +47,8 @@ body{
 
 .dropdown{
     position: relative;
-    display: inline-block;
-    
+    float: right;
+    margin-top: 7px;
     margin-left: 300px;
 }
 
@@ -32,9 +56,10 @@ body{
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 300px;
+    min-width: 360px;
     box-shadow: 0px 8px 16px 0px;
     z-index: 1;
+    right: 0;       /*Jobbról balra igazítja a contentet*/
 }
 
 .dropdown-content a{
@@ -54,7 +79,7 @@ body{
 .dropdown:hover .dropdown-button{
     background-color: grey; /*Később változtatni*/ 
 }
-/*------------------------------*/
+/*----------------- Dropdown*/
 
 #fooldalon{
     color: rgb(235, 235, 235); /*Még változtatásra várhat*/
@@ -63,6 +88,50 @@ body{
 
 .fooldal-link{
     float: left;
-    margin-top: 5px;
-
+    margin-top: 10px;
+    margin-left: 15px;
 }
+
+.fooldal-content{
+    color: black;
+    font-size: 26px;
+}
+
+/*Főoldal logo rész*/
+.fooldal-logoresz ul{
+    list-style-type: none;
+    list-style: none;
+    overflow: hidden;
+}
+
+.fooldal-logoresz li{
+    float: left;
+    margin-right: 15%;
+}
+#fooldal-logo-utso{
+    float: right;
+    margin-right: 2%;
+}
+#fooldal-logo-kozepresz{    /*Hogy szimmetrikus legyen*/
+    margin-right: 330px
+}
+
+/* #fooldal-logo-cr:hover{
+
+} */
+/*----------- Főoldal logo*/
+/*------------------------------ Főoldal*/
+
+/*Brawl Stars CSS kódok*/
+#bsk-b{     /*Brawl Starts karakter háttérkép*/
+    background-image: url('https://i.pinimg.com/736x/fa/53/a4/fa53a4e2f8f55af9fc5e10fea097cf48.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bsk-alcim{
+    font-size: 30px;
+    text-align: center;
+}
+/*------------------------------*/
+
