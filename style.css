@@ -106,32 +106,126 @@ body{
 
 .fooldal-logoresz li{
     float: left;
-    margin-right: 15%;
+    margin-right: 12%;      /*Később átállítani*/
 }
 #fooldal-logo-utso{
     float: right;
     margin-right: 2%;
 }
-#fooldal-logo-kozepresz{    /*Hogy szimmetrikus legyen*/
+.fooldal-logo-kozepresz{    /*Hogy szimmetrikus legyen*/
     margin-right: 330px
 }
+.fooldal-logo{
+    border: 2px hidden rgb(0, 102, 255);
+    width: 236px;
+    height: 265px;
+    pointer-events: none;
+}
+.fooldal-logo-nev{
+    width: 247px;
+    margin-left: -11px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    visibility: hidden;
+}
+.fooldal-logo-kep{
+    width: 225px;
+    height: 225px;
+    object-fit: contain;
+    transition-property: all;
+    transition-duration: 1,5s;
+    pointer-events: auto;
+    mix-blend-mode: initial;
+}
+.fooldal-logo-kep:hover{
+    scale: 110%;
+}
+.fooldal-logo:hover{
+    box-shadow: rgb(0, 102, 255) 0px 10px 10px 0px;
+}
+.fooldal-logo-kep:hover + .fooldal-logo-nev{
+    visibility: visible;
+}
 
-/* #fooldal-logo-cr:hover{
+.fooldal-logo-kep-width-height{
+    width: 225px;
+    height: 225px;
+}
 
+/* #fooldal-rls-kep{
+    
 } */
 /*----------- Főoldal logo*/
 /*------------------------------ Főoldal*/
 
 /*Brawl Stars CSS kódok*/
-#bsk-b{     /*Brawl Starts karakter háttérkép*/
-    background-image: url('https://i.pinimg.com/736x/fa/53/a4/fa53a4e2f8f55af9fc5e10fea097cf48.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 #bsk-alcim{
     font-size: 30px;
     text-align: center;
 }
+.bsk-alcim-trophy{
+    font-size: 30px;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0px 765px  
+}
+.bsk-alcim-rare{
+    font-size: 30px;
+    text-align: center;
+    background-color: #68fd58;
+    margin: 0px 815px  
+}
+.bsk-alcim-superrare{
+    font-size: 30px;
+    text-align: center;
+    background-color: #5ab3ff;
+    margin: 0px 785px  
+}
+.bsk-alcim-epic{
+    font-size: 30px;
+    text-align: center;
+    background-color: #d850ff;
+    margin: 0px 875px  
+}
+#bsk-b{
+    background-position: center;
+    background-image: url('https://i.pinimg.com/736x/fa/53/a4/fa53a4e2f8f55af9fc5e10fea097cf48.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 25px;
+}
+.bsk-kepek-trophy{
+    border: 5px solid lightblue;
+    margin: 10px 10px;
+    width: 120px;
+}
+.bsk-kepek-rare{
+    border: 5px solid #68fd58;
+    width: 120px;
+    margin: 10px 10px;
+}
+.bsk-kepek-superrare{
+    border: 5px solid #5ab3ff;
+    width: 120px;
+    margin: 10px 10px;
+}
+.bsk-kepek-epic{
+    border: 5px solid #d850ff;
+    width: 120px;
+    margin: 10px 10px;
+}
 /*------------------------------*/
 
+/*Clash royale CSS kód*/
+.cr_body {
+    background-image: url(https://images7.alphacoders.com/856/thumb-1920-856231.jpg);
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.cr_kep {
+    float: right;
+    width: 40%;
+}
+/*----------------------------*/
