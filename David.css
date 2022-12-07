@@ -1,33 +1,55 @@
+body{
+    text-align: justify;
+}
+/* BSK */
 .bsk-alcim-trophy{
     font-size: 30px;
     text-align: center;
     background-color: lightblue;
-    margin: 0px 765px  
+    margin: 0px 765px;
 }
 .bsk-alcim-rare{
     font-size: 30px;
     text-align: center;
     background-color: #68fd58;
-    margin: 0px 815px  
+    margin: 0px 815px;  
 }
 .bsk-alcim-superrare{
     font-size: 30px;
     text-align: center;
     background-color: #5ab3ff;
-    margin: 0px 785px  
+    margin: 0px 770px;  
 }
 .bsk-alcim-epic{
     font-size: 30px;
     text-align: center;
     background-color: #d850ff;
-    margin: 0px 875px  
+    margin: 0px 820px;  
+}
+.bsk-alcim-mythic{
+    font-size: 30px;
+    text-align: center;
+    background-color: #fe5e72;
+    margin: 0px 800px;  
+}
+.bsk-alcim-legendary{
+    font-size: 30px;
+    text-align: center;
+    background-color: #fff11e;
+    margin: 0px 775px;  
+}
+.bsk-alcim-chromatic{
+    font-size: 30px;
+    text-align: center;
+    background-color: #f88f25;
+    margin: 0px 775px;  
 }
 #bsk-b{
-background-image: url('https://i.pinimg.com/736x/fa/53/a4/fa53a4e2f8f55af9fc5e10fea097cf48.jpg');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 0px 25px;
+    background-image: url('https://i.pinimg.com/736x/fa/53/a4/fa53a4e2f8f55af9fc5e10fea097cf48.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 25px;
 }
 .bsk-kepek-trophy{
     border: 5px solid lightblue;
@@ -48,4 +70,46 @@ margin: 0px 25px;
     border: 5px solid #d850ff;
     width: 120px;
     margin: 10px 10px;
+}
+.bsk-kepek-mythic{
+    border: 5px solid #fe5e72;
+    width: 120px;
+    margin: 10px 10px;
+}
+.bsk-kepek-legendary{
+    border: 5px solid #fff11e;
+    width: 120px;
+    margin: 10px 10px;
+}
+.bsk-kepek-chromatic{
+    border: 5px solid #f88f25;
+    width: 120px;
+    margin: 10px 10px;
+}
+.igazitas-stu{
+    margin-left: 785px;
+}
+.igazitas-janet{
+    margin-left: 630px;
+}
+/* BS */
+#bs-b{
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSy1lOL00Jum32kgC5xOSmHaPkBAlQWCHrBg&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin: 0px 25px;
+}
+.bs-focim{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.bs-alcim{
+    font-weight: bold;
+    font-size: 30px;
+}
+.bs-tartalom{
+    font-size: 25px;
+
 }
