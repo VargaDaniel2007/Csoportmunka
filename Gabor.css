@@ -8,3 +8,22 @@
     float: right;
     width: 40%;
 }
+
+#cr_trophyroad_kep{
+    width: 230px;
+    float: left;
+}
+
+#cr_pathoflegends_kep{
+    width: 230px;
+    float: left;
+}
+
+.cr_h1 {
+    text-align: center;
+    color: rgb(23, 124, 219);
+    text-shadow: 1px 1px black;
+    font-stretch: ultra-condensed;
+}
+
+
