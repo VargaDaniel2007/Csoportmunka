@@ -1,0 +1,10 @@
+.cr_body {
+    background-image: url(https://images7.alphacoders.com/856/thumb-1920-856231.jpg);
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.cr_kep {
+    float: right;
+    width: 40%;
+}
