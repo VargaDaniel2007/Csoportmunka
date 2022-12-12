@@ -98,18 +98,33 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    margin: 0px 25px;
+    margin: 0px 20px;
+    
 }
 .bs-focim{
-    text-align: center;
+    /* text-align: center; */
+    margin-top: 10px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 37px;
 }
 .bs-alcim{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
+    margin: 20px 35px;
 }
 .bs-tartalom{
-    font-size: 25px;
-
+    font-size: 26px;
+    margin: 0px 60px;
+}
+.bs-kepek{
+    float: right;
+    margin: 0px 25px;
+    border: 5px solid blue;
+}
+#bs-kepek-shop{
+    margin-right: 35px;
+    width: 350px;
+}
+#bs-kepek-Trophy-road{
+    width: 300px;
 }
