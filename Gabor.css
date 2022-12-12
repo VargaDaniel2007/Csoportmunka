@@ -9,16 +9,6 @@
     width: 40%;
 }
 
-#cr_trophyroad_kep{
-    width: 230px;
-    float: left;
-}
-
-#cr_pathoflegends_kep{
-    width: 230px;
-    float: left;
-}
-
 .cr_h1 {
     text-align: center;
     color: rgb(23, 124, 219);
@@ -26,4 +16,34 @@
     font-stretch: ultra-condensed;
 }
 
+.cr_trophyroad_kep {
+    width: 230px;
+    float: left;
+}
 
+.cr_pathoflegends_kep {
+    width: 230px;
+    float: left;
+}
+
+.cr_trophyroad_szoveg {
+    visibility: hidden;
+    transition: width 1s;
+}
+
+.cr_pathoflegends_szoveg {
+    visibility: hidden;
+}
+
+.cr_trophyroad_kep:hover + .cr_trophyroad_szoveg{
+    visibility: visible;
+}
+
+.cr_pathoflegends_kep:hover + .cr_pathoflegends_szoveg {
+    visibility: visible;
+}
+
+.cr_towers_kep {
+    width: 300px;
+    float: right;
+}

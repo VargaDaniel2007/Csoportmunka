@@ -27,7 +27,7 @@
         <h2>A játék menete</h2>
 
         <p>
-            Egy csata során mindkét fél a saját összeállítású 8 kártyából álló deck-ét használja az ellenfél tornyainak lerombolására. Egy csata 2 percig tart, ha viszont az idő lajártával mindkét félnek ugyanannyi tornya van lerombolva, akkor egy perces hosszabbítás következik. Abban az esetben, ha a hosszabbítás vége után még mindig döntetlen az eredmény, akkor a játék elkezdi egyenlő sebességgel csökkenteni a két játékos tornyainak életét, amíg valamelyik torny élete nem fogy el.
+            Egy csata során mindkét fél a saját összeállítású 8 kártyából álló deck-ét használja az ellenfél tornyainak lerombolására. Egy csata 2 percig tart, ha viszont az idő lajártával mindkét félnek ugyanannyi tornya van lerombolva, akkor egy perces hosszabbítás következik. Abban az esetben, ha a hosszabbítás vége után még mindig döntetlen az eredmény, akkor a játék elkezdi egyenlő sebességgel csökkenteni a két játékos tornyainak életét, amíg valamelyik torny élete nem fogy el. Ha ez is egyszerre történik, akkor döntetlen a csata kimenetele.
         </p>
     </div>
 
@@ -35,28 +35,34 @@
         <h2>Játékstílusok</h2>
 
         <ul>
-            <li>
-                    <img src="https://i.ytimg.com/vi/AQucTx012UA/maxresdefault.jpg" id="cr_trophyroad_kep">
-                    <h3>Trophy road</h3>
-                    <p>
-                        Ebben a játékmódban 1v1 csatákat kell játszani, hogy kupáakt érjen el a játékos. Bizonyos mennyiségű kupáknál bizonyos 'nyereményeket' kap az ember, valamint arénákat tud feljebb lépni. A nyertes meccsekért kapott kupák száma függ attól, hogy melyik arénában van a játékos. A vesztes meccseknél viszont kupalevpnás jár, szintén az adott arénától függ, hogy mennyi. Ha egy játékos átlépte a challenger 1-et, akkor season végén kupalevonást kap attól függően, hogy mennyivel van feljebb challenger 1-nél. 
-                    </p>
+            <li class="cr_trophyroad">
+                    <img src="https://i.ytimg.com/vi/AQucTx012UA/maxresdefault.jpg" class="cr_trophyroad_kep" alt="Trophy road" title="Trophy road">
+                    <div class="cr_trophyroad_szoveg">
+                        <h3>Trophy road</h3>
+                        <p>
+                            Ebben a játékmódban 1v1 csatákat kell játszani, hogy kupáakt érjen el a játékos. Bizonyos mennyiségű kupáknál bizonyos 'nyereményeket' kap az ember, valamint arénákat tud feljebb lépni. A nyertes meccsekért kapott kupák száma függ attól, hogy melyik arénában van a játékos. A vesztes meccseknél viszont kupalevpnás jár, szintén az adott arénától függ, hogy mennyi. Ha egy játékos átlépte a challenger 1-et, akkor season végén kupalevonást kap attól függően, hogy mennyivel van feljebb challenger 1-nél. 
+                        </p>
+                    </div>
             </li>
-            <li>
-                    <img src="https://cdn.royaleapi.com/static/img/blog/2022-q3-update/2022q3-rank-steps-sm.jpg?t=a5480c96c" id="cr_pathoflegends_kep">
-                    <h3>Path of legends</h3>
-                    <p>
-                        A path of legends játékmódban a játékos szintén 1v1 csatákat játszik, csakhogy itt nem kupákat kap cserébe, hanem szinteket (lépcsőket) megy fel. Különböző mennyiségű szint fellépése után egy újabb arénába kerül az ember, ahol újabb nyeremények várják. Ha veszít valaki, akkor lelép egy szintet, kivéve ha egy 'arany lépcsőn' van. Először minden szint arany, majd 3-asával, 4-esével, 5-ösével, 6-osával, 7-esével vannak, az utolsó 3 arénában pedig már egyáltalán ninscenek. A path of legends játékmódban az elért eredmény hónaponta nullázódik, így ha valaki elérte az utolsó arénát (ultimate champion), akkor sem kell aggódnia, hogy sokáig újabb nyeremény nélkül marad.
-                    </p>
+            <li class="cr_pathoflegends">
+                    <img src="https://cdn.royaleapi.com/static/img/blog/2022-q3-update/2022q3-rank-steps-sm.jpg?t=a5480c96c" class="cr_pathoflegends_kep" alt="Path of legends" title="Path of legends">
+                    <div class="cr_pathoflegends_szoveg">
+                        <h3>Path of legends</h3>
+                        <p>
+                            A path of legends játékmódban a játékos szintén 1v1 csatákat játszik, csakhogy itt nem kupákat kap cserébe, hanem szinteket (lépcsőket) megy fel. Különböző mennyiségű szint fellépése után egy újabb arénába kerül az ember, ahol újabb nyeremények várják. Ha veszít valaki, akkor lelép egy szintet, kivéve ha egy 'arany lépcsőn' van. Először minden szint arany, majd 3-asával, 4-esével, 5-ösével, 6-osával, 7-esével vannak, az utolsó 3 arénában pedig már egyáltalán ninscenek. A path of legends játékmódban az elért eredmény hónaponta nullázódik, így ha valaki elérte az utolsó arénát (ultimate champion), akkor sem kell aggódnia, hogy sokáig újabb nyeremény nélkül marad.
+                        </p>
+                    </div>
             </li>
         </ul>
     </div>
-
     <div>
+
         <h2>Tornyok</h2>
 
+        <img src="https://cdna.artstation.com/p/assets/images/images/027/803/252/large/fernando-quinn-fernando-quinn-birthday-ts-marketing.jpg?1592585124" alt="tornyok" title="tornyok" class="cr_towers_kep">
+
         <p>
-            Minden játékos 3 toronnyal indul a meccsek elején: 2 normál toronnyal és egy főtoronnyal. A sima tornyoknak kevesebb az életük és a sebzésük is, viszont gyorsabban lőnek a főtoronynál. Ha egy csatában a főtorony elesik, akkor vége a meccsnek, még akkor is, ha egy normál torony még életben van.
+            Minden játékos 3 toronnyal indul a meccsek elején: 2 normál toronnyal és egy főtoronnyal. A sima tornyoknak kevesebb az életük és a sebzésük is, viszont gyorsabban lőnek a főtoronynál. Ha egy csatában a főtorony elesik, akkor vége a meccsnek, még akkor is, ha egy normál torony még életben van. A főtorony a játék elején nincs aktiválva, azaz nem lő az ellenségekre. Az első sebzés után viszont aktiválódik és onnantól ő is részt vesz a csatában.
         </p>
     </div>
 
