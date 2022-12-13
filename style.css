@@ -56,7 +56,7 @@ body{
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 360px;
+    min-width: 370px;
     box-shadow: 0px 8px 16px 0px;
     z-index: 1;
     right: 0;       /*Jobbról balra igazítja a contentet*/
@@ -78,6 +78,16 @@ body{
 
 .dropdown:hover .dropdown-button{
     background-color: grey; /*Később változtatni*/ 
+}
+#fooldal-lent-border{
+    border-bottom: 1px solid black;
+}
+.fooldal-header-border{
+    border: 1px  solid black;
+    border-width: 1px 0px 1px 0px;
+}
+#fooldal-fent-border{
+    border-top: 1px solid black;
 }
 /*----------------- Dropdown*/
 
@@ -129,7 +139,7 @@ body{
 }
 #fooldal-logo-wch{
     float: right;
-    margin-right: 165px;
+    margin-right: 130px;
 }
 .fooldal-logo-nev{
     width: 247px;
@@ -171,6 +181,12 @@ body{
 }
 #fooldal-wt-kep{
     background-image: linear-gradient(to bottom right, rgb(90, 14, 0), rgb(135, 72, 65));
+}
+#fooldal-sc-kep{
+    background-image: linear-gradient(to bottom right, rgb(19,19,19),rgb(3,27,13));
+}
+#fooldal-wch-kep{
+    background-image: linear-gradient(to bottom right, rgb(56,50,46), rgb(175,161,133))
 }
 /*----------- Főoldal logo*/
 /*------------------------------ Főoldal*/
