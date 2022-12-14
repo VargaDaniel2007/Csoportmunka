@@ -1,7 +1,11 @@
-.cr_body {
-    background-image: url(https://images7.alphacoders.com/856/thumb-1920-856231.jpg);
+.cr_content {
     color: white;
     text-shadow: 2px 2px black;
+}
+.cr_hatter {
+    background-image: url(Képek/cr-hatter.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .cr_kep {
@@ -19,31 +23,26 @@
 .cr_trophyroad_kep {
     width: 230px;
     float: left;
+    margin-right: 30px;
 }
 
 .cr_pathoflegends_kep {
     width: 230px;
     float: left;
-}
-
-.cr_trophyroad_szoveg {
-    visibility: hidden;
-    transition: width 1s;
-}
-
-.cr_pathoflegends_szoveg {
-    visibility: hidden;
-}
-
-.cr_trophyroad_kep:hover + .cr_trophyroad_szoveg{
-    visibility: visible;
-}
-
-.cr_pathoflegends_kep:hover + .cr_pathoflegends_szoveg {
-    visibility: visible;
+    margin-right: 30px;
 }
 
 .cr_towers_kep {
-    width: 300px;
+    width: 250px;
     float: right;
+}
+
+.cr_cards_kep {
+    float: right;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.wt_content {
+    background-image: url(Képek/wt_hatter.jpg);
 }
