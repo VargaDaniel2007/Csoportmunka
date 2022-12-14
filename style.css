@@ -1,6 +1,6 @@
 body{
     background-color: rgb(153, 204, 255);
-    font-size: 20px;
+    font-size: 23px;
 }
 /*Általános CSS kódok*/
 .text-center{
@@ -18,6 +18,13 @@ body{
     text-shadow: white 1px 0px;
 }
 
+.alahuzott{
+    text-decoration: underline;
+}
+
+.margin-bottom{
+    margin-bottom: 5px;
+}
 /*------------------ Általános*/
 
 /*Header/Menu CSS kódok*/
@@ -193,6 +200,7 @@ body{
 
 /*Brawl Stars CSS kódok*/
 /* BSK */
+/* BSK */
 .bsk-alcim-trophy{
     font-size: 30px;
     text-align: center;
@@ -289,21 +297,35 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    margin: 0px 25px;
-    text-align: justify;
+    margin: 0px 20px;
+    
 }
 .bs-focim{
-    text-align: center;
+    /* text-align: center; */
+    margin-top: 10px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 37px;
 }
 .bs-alcim{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
+    margin: 20px 35px;
 }
 .bs-tartalom{
-    font-size: 25px;
-
+    font-size: 26px;
+    margin: 0px 60px;
+}
+.bs-kepek{
+    float: right;
+    margin: 0px 25px;
+    border: 5px solid blue;
+}
+#bs-kepek-shop{
+    margin-right: 35px;
+    width: 350px;
+}
+#bs-kepek-Trophy-road{
+    width: 300px;
 }
 /*------------------------------*/
 
@@ -319,16 +341,6 @@ body{
     width: 40%;
 }
 
-#cr_trophyroad_kep{
-    width: 230px;
-    float: left;
-}
-
-#cr_pathoflegends_kep{
-    width: 230px;
-    float: left;
-}
-
 .cr_h1 {
     text-align: center;
     color: rgb(23, 124, 219);
@@ -336,4 +348,51 @@ body{
     font-stretch: ultra-condensed;
 }
 
+.cr_trophyroad_kep {
+    width: 230px;
+    float: left;
+}
+
+.cr_pathoflegends_kep {
+    width: 230px;
+    float: left;
+}
+
+.cr_trophyroad_szoveg {
+    visibility: hidden;
+    transition: width 1s;
+}
+
+.cr_pathoflegends_szoveg {
+    visibility: hidden;
+}
+
+.cr_trophyroad_kep:hover + .cr_trophyroad_szoveg{
+    visibility: visible;
+}
+
+.cr_pathoflegends_kep:hover + .cr_pathoflegends_szoveg {
+    visibility: visible;
+}
+
+.cr_towers_kep {
+    width: 300px;
+    float: right;
+}
+
+/*----------------------------*/
+
+/*Splinter Cell CSS*/
+#sc-menu{
+    background-image: linear-gradient(to bottom right, rgb(44, 43, 43) 70%,rgb(37, 88, 59));
+}
+
+#sc-body{
+    background-image: url('https://initiate.alphacoders.com/images/378/stretched-1920-1200-378517.jpg?6218');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sc-content{
+    color: white;
+}
 /*----------------------------*/
