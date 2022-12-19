@@ -1,19 +1,23 @@
-# Csoportmunka
+# **Csoportmunka**
 
-## Téma
+## **Téma**
+### 3 gépes, és 3 telefonos játék bemumtatása
 
-## Tagok
-- Dani <br>
-    - Feladatok: <br>
+## **Tagok**
+- **Dani** 
+    - Feladatok: 
         - Index.html + Style.css<br>
-        - CSS <br>
-        - 2 weboldal (Splinter Cell, The Witcher)
+        - 2 weboldal *<sup>(2 gépes)</sup>* (Splinter Cell, The Witcher)
 
-- Gábor <br>
-    - Feladatok: <br>
-        - 2 weboldal (War thunder, Clash Royale)
+- **Gábor** 
+    - Feladatok: 
+        - 2 weboldal *<sup>(1 telefonos, 1 gépes)</sup>* (War thunder, Clash Royale)
 
 
-- Dávid <br>
-    - Feladatok: <br>
-        - 2 weboldal (Brawl Starts, Rocket League SideSwipe)
+-  **Dávid**  
+    - Feladatok: 
+        - 2 weboldal *<sup>(2 telefonos)</sup>* (Brawl Starts, Rocket League SideSwipe)
+        <br>
+### Mindenki saját css-ban dolgazott, a végén egyesítettük 
+### Dani hosztolta a git repot 
+
