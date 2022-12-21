@@ -1,3 +1,5 @@
+/* Clash Royale CSS kezdődik */
+
 .cr_content {
     color: white;
     text-shadow: 2px 2px black;
@@ -43,6 +45,52 @@
     margin-top: 30px;
 }
 
-.wt_content {
-    background-image: url(Képek/wt_hatter.jpg);
+/* Clash Royale CSS vége */
+
+
+
+/* War Thunder CSS kezdődik */
+
+#wt_header {
+    background-image: linear-gradient(to right, rgb(182, 28, 28), rgb(128, 78, 13));
 }
+
+.wt_content {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.wt_hatter {
+    background-image: url(https://static.warthunder.com/upload/image/News/september14/3/1920x1080_2years_eng.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wt_h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.wt_kep {
+    float: right;
+}
+
+.wt_arcade_kep {
+    float: left;
+    width: 230px;
+    margin-right: 30px;
+}
+
+.wt_realistic_kep {
+    float: left;
+    width: 230px;
+    margin-right: 30px;
+}
+
+.wt_fejlesztes_kep {
+    float: right;
+    width: 500px;
+
+}
+
+/* War Thunder CSS vége */
