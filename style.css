@@ -28,8 +28,8 @@ body{
 .justify{
     text-align: justify;
 }
-.margin-szovegre{
-    margin: 0px 30px;
+.padding-szovegre{
+    padding: 0px 50px;
 }
 /*------------------ Általános*/
 
@@ -46,13 +46,6 @@ body{
 #current{
     text-decoration: none;
     color: white;
-}
-.fooldal-link:visited{
-    color:rgb(37, 88, 59);
-}
-.foodal-link:hover{
-    color: rgb(37, 88, 59);
-    text-decoration: underline;
 }
 .fooldal-link:active{
     color: white;
@@ -453,21 +446,37 @@ body{
 
 /*Splinter Cell CSS*/
 #sc-menu{
-    background-image: linear-gradient(to bottom right, rgb(44, 43, 43) 70%,rgb(37, 88, 59));
+    background-image: linear-gradient(to bottom right, rgb(8, 8, 8) 70%,rgb(37, 88, 59));
+    box-shadow: 0px 0px 16px 0px rgb(31, 51, 40);
+}
+
+#sc-menu .fooldal-link{
+    margin-top: 7px;
+    color: white;
+}
+
+#sc-menu .fooldal-link a:visited{
+    color:rgb(37, 88, 59);
+}
+#sc-menu .foodal-link a:hover{
+    color: rgb(25, 27, 26);
+    text-decoration: underline;
+}
+#sc-menu .fooldal-link a:active{
+    color: red;
 }
 
 #sc-body{
-    background-image: url('Képek/scct-háttérkép.jpg'); /*Kivenni*/
-    /* background-repeat: no-repeat; */
+    background-image: url('Képek/scct/scct-háttérkép.jpg');
     background-attachment: fixed;
 }
 .sc-content{
     color: white;
 }
+/*Bank kép rész*/
 .sc-bank{
     float: right;
 }
-    /*Bank kép rész*/
 #sc-bank-kep{
     aspect-ratio: 16/9;
     width: 500px;
@@ -477,6 +486,7 @@ body{
     transition: .5s;
 }
 .sc-bank-alairas{
+    opacity: 0;
     width: 550px;
     height: 45px;
     position: relative;
@@ -484,7 +494,6 @@ body{
     margin-top: 7px;
     margin-left: 25px;     /*Később méretezni, hogy középen legyen*/
     padding-top: 12px;
-    opacity: 0;
     background-color: rgb(16, 20, 18);
     z-index: -1;
 }
@@ -493,18 +502,66 @@ body{
     scale: 110%;
 }
 .sc-bank-kep-div:hover + .sc-bank-alairas{
-    animation: fade-in 1s forwards;
+    transition: .5s;
+    transition-delay: .5s;
+    opacity: 1;
+
+    -webkit-transition: opacity .5s;
 }
-@keyframes fade-in{
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+.sc-bank-kep-div{
+    transition: .5s;
+    transition-delay: .2s;
+    scale: 100%;
+}
+.sc-bank-alairas{
+    transition: .5s;
+    opacity: 0;
+
+    -webkit-transition: opacity .5s;
 }
     /*---Bank kép rész---*/
+/*Karakterek rész*/
+.sc-kark-leiras{
+    float:right;
+    padding: 15px 10px;
+    margin-top: -24px;
+    margin-left: 16px;
+    height: 550px;
+    background-color: rgb(16, 20, 18);
+    opacity: 0;
+    z-index: -1;
+}
+.sc-kark-sam{
+    float: left;
+    margin-left: 50px;
+}
+#sc-kark-sam-img{
+    width: 318px;
+    height: 500px;
+}
+.sc-kark-img:hover{
+    transition: 0.5s;
+    scale: 110%
+}
+.sc-kark-img:hover + .sc-kark-leiras{
+    transition: .5s;
+    transition-delay: .5s;
+    opacity: 1;
+
+    -webkit-transition: opacity .5s;
+    -webkit-transition-delay: .5s;
+}
+.sc-kark-img{
+    transition: .5s;
+    transition-delay: .3s;
+    scale: 100%;
+}
+.sc-kark-leiras{
+    transition: .5s;
+    opacity: 0;
+
+    -webkit-transition: opacity .5s;
+}
+    /*---Karakterek rész---*/
+
 /*----------------------------*/
