@@ -469,8 +469,9 @@ body{
 }
     /*Bank kép rész*/
 #sc-bank-kep{
+    aspect-ratio: 16/9;
     width: 500px;
-    height: 350px;
+    height: 310px;
     margin-right: 50px;
     margin-left: 50px;
     transition: .5s;
@@ -480,12 +481,10 @@ body{
     height: 45px;
     position: relative;
     float: none;
-    margin-top: 11px;
+    margin-top: 7px;
     margin-left: 25px;     /*Később méretezni, hogy középen legyen*/
     padding-top: 12px;
     opacity: 0;
-    transition-delay: .5s;
-    transition: .3s;
     background-color: rgb(16, 20, 18);
     z-index: -1;
 }
