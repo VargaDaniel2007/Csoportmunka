@@ -1,3 +1,5 @@
+/* Clash Royale CSS kezdődik */
+
 .cr_content {
     color: white;
     text-shadow: 2px 2px black;
@@ -43,8 +45,15 @@
     margin-top: 30px;
 }
 
+/* Clash Royale CSS vége */
 
 
+
+/* War Thunder CSS kezdődik */
+
+#wt_header {
+    background-image: linear-gradient(to right, rgb(182, 28, 28), rgb(128, 78, 13));
+}
 
 .wt_content {
     color: white;
@@ -71,3 +80,17 @@
     width: 230px;
     margin-right: 30px;
 }
+
+.wt_realistic_kep {
+    float: left;
+    width: 230px;
+    margin-right: 30px;
+}
+
+.wt_fejlesztes_kep {
+    float: right;
+    width: 500px;
+
+}
+
+/* War Thunder CSS vége */
