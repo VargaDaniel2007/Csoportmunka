@@ -524,6 +524,15 @@ body{
 }
 .sc-content{
     color: white;
+    font-size: 25px;
+}
+
+.sc-content p{
+    background-color: rgba(26, 25, 25, 0.9);
+    padding: 10px;
+}
+.sc-content .sc-kep-melletti-p{
+    width: 68%;
 }
 /*Bank kép rész*/
 .sc-bank{
@@ -573,24 +582,41 @@ body{
 }
     /*---Bank kép rész---*/
 /*Karakterek rész*/
+.sc-kark-sor{
+    margin-left: 12%;
+    margin-bottom: 500px;
+}
+.sc-kark-bal{
+    margin-right: 176px;
+}
 .sc-kark-leiras{
-    float:right;
+    float: left;
     padding: 15px 10px;
-    margin-top: -24px;
-    margin-left: 16px;
-    height: 550px;
+    margin-top: -17px;
+    margin-left: 14px;
+    width: 350px;
+    height: 349px;
     background-color: rgb(16, 20, 18);
     opacity: 0;
     z-index: -1;
+    /* vertical-align: middle; */
+}
+.sc-kark-shetland{
+    margin-left: 67px;
+}
+#sc-shetland-leiras{
+    margin-right: 170px;
 }
 .sc-kark-sam{
     float: left;
-    margin-left: 50px;
+    margin-left: 67px;
 }
-#sc-kark-sam-img{
-    width: 318px;
-    height: 500px;
+.sc-kark-img{
+    float:left;
+    width: 296px;
+    height: 343px;
 }
+    
 .sc-kark-img:hover{
     transition: 0.5s;
     scale: 110%
