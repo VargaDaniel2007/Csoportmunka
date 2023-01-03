@@ -184,3 +184,8 @@ body{
 .behuzastalan{
     margin: 0px;
 }
+/* felső cucli */
+#bs-menu{
+    background-image: linear-gradient(to bottom right, rgb(8, 8, 8) 70%,rgb(255, 239, 116));
+    box-shadow: 0px 0px 16px 0px rgb(31, 51, 40);
+}
