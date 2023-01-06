@@ -497,7 +497,6 @@ body{
     width: 500px;
 
 }
-
 /* War Thunder CSS vége */
 /*----------------------------*/
 
@@ -532,7 +531,7 @@ body{
     font-size: 25px;
 }
 
-.sc-content p{
+.sc-jatek-leiras p{
     background-color: rgba(26, 25, 25, 0.9);
     padding: 10px;
 }
@@ -596,16 +595,16 @@ body{
 }
 .sc-kark-leiras{
     float: left;
-    padding: 15px 10px;
+    padding: 10px 10px;
     margin-top: -17px;
     margin-left: 14px;
-    padding-top: 10px;
     width: 350px;
-    height: 349px;
+    height: 357px;
     background-color: rgb(16, 20, 18);
     opacity: 0;
     z-index: -1;
-    /* vertical-align: middle; */
+    vertical-align: middle;
+    box-shadow: 7px 7px 10px 0px rgb(37, 88, 59);
 }
 .sc-kark-shetland{
     margin-left: 67px;
@@ -647,5 +646,19 @@ body{
     -webkit-transition: opacity .5s;
 }
     /*---Karakterek rész---*/
-
+/*Könyvek*/
+.sc-konyv-elso{
+    margin-left: 67px;
+    float: left;
+    margin-right: 500px;
+}
+/*-----*/
+.sc-filmek{
+    float:left;
+    width: 700px;
+}
+.sc-osszegzes{
+    margin-top: 150px;
+    margin-left: 1000px;
+}
 /*----------------------------*/
