@@ -50,6 +50,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0px 25px;
 }
 .bsk-kepek-trophy{
@@ -125,6 +126,7 @@ body{
     margin: 0px 20px;
     color: white;
     text-shadow: 2px 2px black;
+    background-attachment: fixed;
     
 }
 .bs-focim{
@@ -177,15 +179,60 @@ body{
     margin: 0px 20px;
     color: white;
     text-shadow: 2px 2px black;
+    background-attachment: fixed;
+
+}
+.rls-focim{
+    text-align: left;
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 37px;
+    color: rgb(23, 124, 219);
+    text-shadow: 1px 1px black;
+}
+.rls-alcim{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px 35px;
+}
+.rls-tartalom{
+    font-size: 26px;
+    margin: 0px 60px;
+}
+.rls-kepek{
+    float: right;
+    margin: 0px 25px;
+    border: 3px solid gray;
+}
+#rls-kepek-shop{
+    margin-right: 35px;
+    width: 350px;
+}
+#bs-kepek-Trophy-road{
+    width: 300px;
+}
+#bs-kepek-logo{
+    margin-top: 45px;
+    width: 150px;
+}
+.bs-a{
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+}
+.rls-felsorolas{
+    list-style: none;
+}
+/* felső cucli */
+#bsk-menu{
+    background-image: linear-gradient(to bottom right, rgb(8, 8, 8) 55%,#5a60ff);
+    box-shadow: 0px 0px 16px 0px rgb(31, 51, 40);}
+#bs-menu{
+    background-image: linear-gradient(to bottom right, rgb(8, 8, 8) 65%,rgb(255, 239, 116));
+    box-shadow: 0px 0px 16px 0px rgb(31, 51, 40);
 }
 .shadowtalan{
     text-shadow: none;
 }
 .behuzastalan{
     margin: 0px;
-}
-/* felső cucli */
-#bs-menu{
-    background-image: linear-gradient(to bottom right, rgb(8, 8, 8) 70%,rgb(255, 239, 116));
-    box-shadow: 0px 0px 16px 0px rgb(31, 51, 40);
 }
