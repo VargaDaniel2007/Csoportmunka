@@ -63,7 +63,7 @@
 
 .cr_trophyroad_div:hover {
     width: 100%;
-    height: 210px;
+    height: 200px;
 }
 
 /*Trophy Road játékstílus vége*/
@@ -109,7 +109,7 @@
 
 .cr_pathoflegends_div:hover {
     width: 100%;
-    height: 210px;
+    height: 200px;
 }
 
 /*Path of legends játékmód vége*/
@@ -207,7 +207,7 @@
 
 .wt_arcade_div:hover {
     width: 100%;
-    height: 150px;
+    height: 170px;
 }
 
 /*Arcade játékstílus vége*/
@@ -238,7 +238,7 @@
 
 .wt_realistic_div {
     width: 230px;
-    height: 129.488px;
+    height: 150px;
     transition: width 1s, height 1s;
     border: 3px solid rgb(128, 78, 13);
     margin-top: 10px;
@@ -254,7 +254,7 @@
 
 .wt_realistic_div:hover {
     width: 100%;
-    height: 180px;
+    height: 170px;
 }
 
 /*Realistic játékstílus vége*/
