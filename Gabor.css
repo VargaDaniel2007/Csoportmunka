@@ -13,6 +13,7 @@
 .cr_kep {
     float: right;
     width: 40%;
+    margin-left: 20px;
 }
 
 .cr_h1 {
@@ -22,17 +23,102 @@
     font-stretch: ultra-condensed;
 }
 
+
+
+/*Trophy Road játékstílus*/
+
 .cr_trophyroad_kep {
-    width: 230px;
     float: left;
-    margin-right: 30px;
+    width: 230px;
+    position: absolute;
 }
 
-.cr_pathoflegends_kep {
-    width: 230px;
-    float: left;
-    margin-right: 30px;
+.cr_trophyroad_div h3 {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
 }
+
+.cr_trophyroad_div p {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.cr_trophyroad_div {
+    width: 230px;
+    height: 129.488px;
+    transition: width 1s, height 1s;
+    border: 3px solid rgb(23, 124, 219);
+}
+
+.cr_trophyroad_div:hover h3 {
+    visibility: visible;
+}
+
+.cr_trophyroad_div:hover p {
+    visibility: visible;
+}
+
+.cr_trophyroad_div:hover {
+    width: 100%;
+    height: 210px;
+}
+
+/*Trophy Road játékstílus vége*/
+
+
+
+/*Path of legends játékmód*/
+
+.cr_pathoflegends_kep {
+    float: left;
+    width: 230px;
+    position: absolute;
+}
+
+.cr_pathoflegends_div h3 {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.cr_pathoflegends_div p {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.cr_pathoflegends_div {
+    width: 230px;
+    height: 129.488px;
+    transition: width 1s, height 1s;
+    border: 3px solid rgb(23, 124, 219);
+    margin-top: 10px;
+}
+
+.cr_pathoflegends_div:hover h3 {
+    visibility: visible;
+}
+
+.cr_pathoflegends_div:hover p {
+    visibility: visible;
+}
+
+.cr_pathoflegends_div:hover {
+    width: 100%;
+    height: 210px;
+}
+
+/*Path of legends játékmód vége*/
+
+
+
+
+
+
 
 .cr_towers_kep {
     width: 250px;
@@ -43,9 +129,14 @@
     float: right;
     width: 500px;
     margin-top: 30px;
+    margin-left: 20px;
 }
 
 /* Clash Royale CSS vége */
+
+
+
+
 
 
 
@@ -73,23 +164,106 @@
 
 .wt_kep {
     float: right;
+    width: 200px;
 }
+
+
+/*Arcade játékstílus*/
 
 .wt_arcade_kep {
     float: left;
     width: 230px;
     margin-right: 30px;
+    position: absolute;
 }
+
+.wt_arcade_div h3 {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.wt_arcade_div p {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.wt_arcade_div {
+    width: 230px;
+    height: 129.488px;
+    transition: width 1s, height 1s;
+    border: 3px solid rgb(128, 78, 13);
+}
+
+.wt_arcade_div:hover h3 {
+    visibility: visible;
+}
+
+.wt_arcade_div:hover p {
+    visibility: visible;
+}
+
+.wt_arcade_div:hover {
+    width: 100%;
+    height: 150px;
+}
+
+/*Arcade játékstílus vége*/
+
+
+
+/*Realistic játékstílus*/
 
 .wt_realistic_kep {
     float: left;
     width: 230px;
     margin-right: 30px;
+    position: absolute;
 }
+
+.wt_realistic_div h3 {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.wt_realistic_div p {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.wt_realistic_div {
+    width: 230px;
+    height: 129.488px;
+    transition: width 1s, height 1s;
+    border: 3px solid rgb(128, 78, 13);
+    margin-top: 10px;
+}
+
+.wt_realistic_div:hover h3 {
+    visibility: visible;
+}
+
+.wt_realistic_div:hover p {
+    visibility: visible;
+}
+
+.wt_realistic_div:hover {
+    width: 100%;
+    height: 180px;
+}
+
+/*Realistic játékstílus vége*/
+
 
 .wt_fejlesztes_kep {
     float: right;
     width: 500px;
+    margin-left: 20px;
 
 }
 
