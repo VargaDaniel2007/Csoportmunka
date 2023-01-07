@@ -222,6 +222,41 @@ body{
 .rls-felsorolas{
     list-style: none;
 }
+.rls-behuzas{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.rls-kepek-balra{
+    margin-left: -375px;
+    float: left;
+}
+.rls-kepek-jobbra:hover{
+    scale: 125%;
+}
+.rls-kepek-balra:hover{
+    scale: 125%;
+}
+.rls-kepek-jobbra{
+    margin-right: -360px;
+    float: right;
+}
+#rls-kepek-rang{
+    margin-left: -325px;
+    scale: 150%
+}
+#rls-kepek-rang:hover{
+    scale: 175%;
+}
+.rls-kepek-eggscalibur{
+    margin-right: -200px;
+    scale: 125%;
+}
+.rls-kepek-eggscalibur:hover{
+    scale: 150%;
+}
+
+
+
 /* felső cucli */
 #bsk-menu{
     background-image: linear-gradient(to bottom right, rgb(8, 8, 8) 55%,#5a60ff);
