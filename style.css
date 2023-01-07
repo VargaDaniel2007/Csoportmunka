@@ -31,13 +31,16 @@ body{
 .padding-szovegre{
     padding: 0px 50px;
 }
+.float-left{
+    float: left;
+}
 /*------------------ Általános*/
 
 /*Header/Menu CSS kódok*/
 .menu{
     background-color: rgb(0, 102, 255);
     font-size: 30px;
-    width: 101%;
+    width: 1905px;
     margin: -8px;
     /* position: fixed; */
     height: 80px;
@@ -50,10 +53,26 @@ body{
 .fooldal-link:active{
     color: white;
 }
+
+.menu-logo{
+    width: 50px;
+    height: 50px;
+
+    margin-left: 250px;
+    margin-top: 12px;
+}
+.menu-jateknev{
+    font-size: 32px;
+
+    margin-top: 16px;
+    margin-left: 5px;
+}
 /*--------------------- Menu*/
 
 /*Főoldal CSS kód*/
-
+#fooldal-menu{
+    width: 1920px; /*HA VERTIKÁLISAN GÖRGETHETŐ KI KELL VENNI*/
+}
 /* DROPDOWN BEÁLLÍTÁSOK*/
 .dropdown-button{
     font-family: 'Times New Roman', Times, serif;
@@ -395,16 +414,46 @@ body{
 .behuzastalan{
     margin: 0px;
 }
+/*Menu logó rész*/
+#rls-menu-logo{
+    margin-left: 400px;
+    margin-top: 18px;
+}
+#rls-menu-jateknev{
+    font-size: 40px;
+    margin-top: 18px;
+}
 /* felső cucli */
 #bs-menu{
     background-image: linear-gradient(to bottom right, rgb(8, 8, 8) 70%,rgb(255, 239, 116));
     box-shadow: 0px 0px 16px 0px rgb(31, 51, 40);
+
+    width: 1904px;
+    margin-left: -19px;
+}
+
+#bs-menu-logo{
+    margin-top: 16px;
+    margin-left: 500px;
+}
+#bs-menu-jateknev{
+    margin-top: 16px;
+    font-size: 40px;
 }
 /*------------------------------*/
 
 /*Clash royale CSS kód*/
 /* Clash Royale CSS kezdődik */
-
+    /*Menu logókép*/
+#cr-menu-logo{
+    margin-left: 500px;
+    margin-top: 13px;
+}
+#cr-menu-jateknev{
+    font-size: 40px;
+    margin-top: 14px;
+}
+    /*-----------*/
 .cr_content {
     color: white;
     text-shadow: 2px 2px black;
@@ -455,7 +504,15 @@ body{
 
 
 /* War Thunder CSS kezdődik */
-
+    /*Menu*/
+#wt-menu-logo{
+    margin-left: 450px;
+    margin-top: 16px;
+}
+#wt-menu-jateknev{
+    font-size: 40px;
+    margin-top: 16px;
+}
 #wt_header {
     background-image: linear-gradient(to right, rgb(182, 28, 28), rgb(128, 78, 13));
 }
@@ -522,6 +579,10 @@ body{
     color: red;
 }
 
+#sc-menu-jateknev{
+    color: rgb(86, 151, 114);
+}
+
 #sc-body{
     background-image: url('Képek/scct/scct-háttérkép.jpg');
     background-attachment: fixed;
@@ -541,6 +602,7 @@ body{
 /*Bank kép rész*/
 .sc-bank{
     float: right;
+    overflow: hidden;
 }
 #sc-bank-kep{
     aspect-ratio: 16/9;
