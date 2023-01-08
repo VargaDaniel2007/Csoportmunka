@@ -225,7 +225,7 @@ body{
     background-image: linear-gradient(to bottom right, rgb(19,19,19),rgb(3,27,13));
 }
 #fooldal-wch-kep{
-    background-image: linear-gradient(to bottom right, rgb(56,50,46), rgb(175,161,133))
+    background-image: linear-gradient(to bottom right, rgb(56,50,46), rgb(175,161,133));
 }
 /*----------- Főoldal logo*/
 /*------------------------------ Főoldal*/
@@ -634,6 +634,7 @@ body{
     opacity: 1;
 
     -webkit-transition: opacity .5s;
+    -webkit-transition-delay: .5s;
 }
 .sc-bank-kep-div{
     transition: .5s;
@@ -722,5 +723,167 @@ body{
 .sc-osszegzes{
     margin-top: 150px;
     margin-left: 1000px;
+}
+/*----------------------------*/
+/*The Witcher CSS*/
+.wch-content{
+    color: white;
+    font-size: 25px;
+}
+#wch-body{
+    background-image: url('Képek/wch/the-wicher-bg.jpg');
+    background-attachment: fixed;
+}
+#wch-menu{
+    background-image: linear-gradient(to bottom right, rgb(56,50,46) 50%, rgb(175,161,133));
+}
+#wch-menu-logo{
+    margin-left: 500px;
+    margin-top: 13px;
+}
+#wch-menu-jateknev{
+    font-size: 40px;
+    margin-top: 14px;
+    color: rgb(207, 188, 142);
+}
+.wch-jatek-leiras{
+    margin-left: 80px;
+    width: 1200px;
+}
+.wch-jatek-leiras p{
+    background-color: rgba(66, 66, 50, 0.5);
+}
+/*WCH SCreenshot rész*/
+.wch-kep-melett{
+    width: 1080px;
+}
+#wch-megj{
+    margin-top: 56px;
+}
+.wch-screenshot{
+    margin-right: 10px;
+    float:right;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#wch-sch-kep{
+    aspect-ratio: 16/9;
+    width: 500px;
+    height: 310px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.wch-sch-alairas{
+    opacity: 0;
+    width: 550px;
+    height: 45px;
+    position: relative;
+    float:none;
+    margin-top: 9px;
+    padding-top: 7px;
+    margin-left:25px;
+    background-color: rgb(175,161,133);
+    z-index: -1;
+}
+.wch-sch-div:hover{
+    transition: .5s;
+    scale: 110%;
+}
+.wch-sch-div:hover + .wch-sch-alairas{
+    transition: .5s;
+    transition-delay: 3s;
+    opacity: 1;
+
+    -webkit-transition: opacity .5s;
+    -webkit-transition-delay: .5s;
+}
+.wch-sch-div{
+    transition: .5s;
+    transition-delay: .2s;
+    scale: 100%;
+}
+.wch-sch-alairas{
+    transition: .5s;
+    opacity: 0;
+
+    -webkit-transition: opacity .5s;
+}
+/*-------*/
+/*WCH karakterek*/
+.wch-kark-img{
+    float: left;
+    width: 225px;
+    height: 225px;
+}
+.wch-kark-sor{
+    margin-left: 12%;
+    margin-bottom: 400px;
+}
+.wch-kark-bal{
+    margin-right: 300px; /*Kép méretével változtatni*/
+    margin-left: 11%;
+}
+.wch-kark-leiras{
+    float:left;
+    padding: 10px 10px;
+    margin-top: -11px;
+    margin-left: 11px;
+    width: 350px;   /*Kép méretével változtatni*/
+    height: 228px;
+    background-color: rgb(56,50,46);
+    opacity: 0;
+    z-index: -1;
+    vertical-align: middle;
+    box-shadow: 7px 7px 10px 0px rgb(175,161,133);
+}
+.wch-kark-leiras-bal{
+    margin-right: 200px;
+}
+
+.wch-kark-img:hover{
+    transition: 0.5s;
+    scale: 110%;
+}
+.wch-kark-img:hover + .wch-kark-leiras{
+    transition: .5s;
+    transition-delay: .5s;
+    opacity: 1;
+
+    -webkit-transition: opacity .5s;
+    -webkit-transition-delay: .5s;
+}
+.wch-kark-img{
+    transition: .5s;
+    transition-delay: .3s;
+    scale: 100%;
+}
+.wch-kark-leiras{
+    transition: .5s;
+    opacity: 0;
+    
+    -webkit-transition: opacity .5s;
+}
+/*------*/
+/*Egyéb*/
+.wch-egyeb{
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}
+.wch-egyeb p{
+    background-color: rgba(66, 66, 50, 0.5);
+}
+.wch-osszegzes{
+    margin-top: 800px;
+}
+.wch-osszegzes p{
+    float: right;
+    width: 913px;
+    background-color: rgba(66, 66, 50, 0.5);
+}
+.wch-jovo p{
+    background-color: rgba(66, 66, 50, 0.5);
+    float:right;
+    width: 913px;
 }
 /*----------------------------*/
