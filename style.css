@@ -280,6 +280,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0px 25px;
 }
 .bsk-kepek-trophy{
@@ -355,6 +356,7 @@ body{
     margin: 0px 20px;
     color: white;
     text-shadow: 2px 2px black;
+    background-attachment: fixed;
     
 }
 .bs-focim{
@@ -407,7 +409,82 @@ body{
     margin: 0px 20px;
     color: white;
     text-shadow: 2px 2px black;
+    background-attachment: fixed;
+
 }
+.rls-focim{
+    text-align: left;
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 37px;
+    color: rgb(23, 124, 219);
+    text-shadow: 1px 1px black;
+}
+.rls-alcim{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px 35px;
+}
+.rls-tartalom{
+    font-size: 26px;
+    margin: 0px 60px;
+}
+.rls-kepek{
+    float: right;
+    margin: 0px 25px;
+    border: 3px solid gray;
+}
+#rls-kepek-shop{
+    margin-right: 35px;
+    width: 350px;
+}
+#bs-kepek-Trophy-road{
+    width: 300px;
+}
+#bs-kepek-logo{
+    margin-top: 45px;
+    width: 150px;
+}
+.bs-a{
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+}
+.rls-felsorolas{
+    list-style: none;
+}
+.rls-behuzas{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.rls-kepek-balra{
+    margin-left: -375px;
+    float: left;
+}
+.rls-kepek-jobbra:hover{
+    scale: 125%;
+}
+.rls-kepek-balra:hover{
+    scale: 125%;
+}
+.rls-kepek-jobbra{
+    margin-right: -360px;
+    float: right;
+}
+#rls-kepek-rang{
+    margin-left: -325px;
+    scale: 150%
+}
+#rls-kepek-rang:hover{
+    scale: 175%;
+}
+.rls-kepek-eggscalibur{
+    margin-right: -200px;
+    scale: 125%;
+}
+.rls-kepek-eggscalibur:hover{
+    scale: 150%;
+}
+
 .shadowtalan{
     text-shadow: none;
 }
@@ -430,6 +507,10 @@ body{
 
     width: 1904px;
     margin-left: -19px;
+}
+#bsk-menu{
+    background-image: linear-gradient(to bottom right, rgb(8, 8, 8) 55%,#5a60ff);
+    box-shadow: 0px 0px 16px 0px rgb(31, 51, 40);
 }
 
 #bs-menu-logo{
@@ -454,6 +535,20 @@ body{
     margin-top: 14px;
 }
     /*-----------*/
+#cr_header .fooldal-link-cr a:visited {
+    color: white;
+}
+
+#cr_header .fooldal-link-cr {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+}
+
+.fooldal-link-cr:active {
+    color: white;
+}
+
 .cr_content {
     color: white;
     text-shadow: 2px 2px black;
@@ -467,6 +562,7 @@ body{
 .cr_kep {
     float: right;
     width: 40%;
+    margin-left: 20px;
 }
 
 .cr_h1 {
@@ -476,17 +572,91 @@ body{
     font-stretch: ultra-condensed;
 }
 
+/*Trophy Road játékstílus*/
+
 .cr_trophyroad_kep {
-    width: 230px;
     float: left;
-    margin-right: 30px;
+    width: 230px;
+    position: absolute;
 }
 
-.cr_pathoflegends_kep {
-    width: 230px;
-    float: left;
-    margin-right: 30px;
+.cr_trophyroad_div h3 {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
 }
+
+.cr_trophyroad_div p {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.cr_trophyroad_div {
+    width: 230px;
+    height: 129.488px;
+    transition: width 1s, height 1s;
+    border: 3px solid rgb(23, 124, 219);
+}
+
+.cr_trophyroad_div:hover h3 {
+    visibility: visible;
+}
+
+.cr_trophyroad_div:hover p {
+visibility: visible;
+}
+
+.cr_trophyroad_div:hover {
+    width: 100%;
+    height: 200px;
+}
+
+/*Trophy Road játékstílus vége*/
+/*Path of legends játékmód*/
+
+.cr_pathoflegends_kep {
+    float: left;
+    width: 230px;
+    position: absolute;
+}
+
+.cr_pathoflegends_div h3 {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.cr_pathoflegends_div p {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.cr_pathoflegends_div {
+    width: 230px;
+    height: 129.488px;
+    transition: width 1s, height 1s;
+    border: 3px solid rgb(23, 124, 219);
+    margin-top: 10px;
+}
+
+.cr_pathoflegends_div:hover h3 {
+    visibility: visible;
+}
+
+.cr_pathoflegends_div:hover p {
+    visibility: visible;
+}
+
+.cr_pathoflegends_div:hover {
+    width: 100%;
+    height: 200px;
+}
+
+/*Path of legends játékmód vége*/
 
 .cr_towers_kep {
     width: 250px;
@@ -497,6 +667,7 @@ body{
     float: right;
     width: 500px;
     margin-top: 30px;
+    margin-left: 20px;
 }
 
 /* Clash Royale CSS vége */
@@ -513,6 +684,22 @@ body{
     font-size: 40px;
     margin-top: 16px;
 }
+    /*------*/
+#wt_header .fooldal-link-wt a:visited {
+    color: white;
+}
+
+#wt_header .fooldal-link-wt {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+}
+
+.fooldal-link-wt:active {
+    color: white;
+}
+
+
 #wt_header {
     background-image: linear-gradient(to right, rgb(182, 28, 28), rgb(128, 78, 13));
 }
@@ -535,23 +722,118 @@ body{
 
 .wt_kep {
     float: right;
+    width: 200px;
 }
+
+/*Arcade játékstílus*/
 
 .wt_arcade_kep {
     float: left;
     width: 230px;
     margin-right: 30px;
+    position: absolute;
 }
+
+.wt_arcade_div h3 {
+    opacity: 0;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.wt_arcade_div p {
+    opacity: 0;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.wt_arcade_div {
+    width: 230px;
+    height: 129.488px;
+    transition: width 1s, height 1s;
+    border: 3px solid rgb(128, 78, 13);
+}
+
+.wt_arcade_div:hover h3 {
+    transition: opacity .5s;
+    transition-delay: .5s;
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+    -webkit-transition-delay: .5s;
+}
+
+.wt_arcade_div:hover p {
+    transition: opacity .5s;
+    transition-delay: .5s;
+    opacity:1;
+    -webkit-transition: opacity .5s;
+    -webkit-transition-delay: .5s;
+}
+
+.wt_arcade_div:hover {
+    width: 100%;
+    height: 170px;
+}
+
+/*Arcade játékstílus vége*/
+
+/*Realistic játékstílus*/
 
 .wt_realistic_kep {
     float: left;
     width: 230px;
     margin-right: 30px;
+    position: absolute;
 }
+
+.wt_realistic_div h3 {
+    opacity: 0;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.wt_realistic_div p {
+    opacity: 0;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.wt_realistic_div {
+    width: 230px;
+    height: 150px;
+    transition: width 1s, height 1s;
+    border: 3px solid rgb(128, 78, 13);
+    margin-top: 10px;
+}
+
+.wt_realistic_div:hover h3 {
+    transition: opacity .5s;
+    transition-delay: .5s;
+    opacity:1;
+    -webkit-transition: opacity .5s;
+    -webkit-transition-delay: .5s;
+}
+
+.wt_realistic_div:hover p {
+    transition: opacity .5s;
+    transition-delay: .5s;
+    opacity:1;
+    -webkit-transition: opacity .5s;
+    -webkit-transition-delay: .5s;
+}
+
+.wt_realistic_div:hover {
+    width: 100%;
+    height: 170px;
+}
+
+/*Realistic játékstílus vége*/
 
 .wt_fejlesztes_kep {
     float: right;
     width: 500px;
+    margin-left: 20px;
 
 }
 /* War Thunder CSS vége */
