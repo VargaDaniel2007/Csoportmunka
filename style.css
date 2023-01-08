@@ -446,6 +446,14 @@ body{
     margin-right: 35px;
     width: 350px;
 }
+.rls-táblázat{
+    border-collapse: collapse;
+}
+.rls-td{
+    border: 2px solid white;
+    padding: 4px;
+    text-align: center;
+}
 #bs-kepek-Trophy-road{
     width: 300px;
 }
