@@ -1,7 +1,8 @@
 # **Csoportmunka**
 
 ## **Téma**
-### 3 gépes, és 3 telefonos játék bemumtatása
+### Miért fontosak a telefonos játékok?
+Érdekesnek találtuk ezt a témát, hogy miért is fontosak a telefonos játékok ahhoz képest, hogy egyszerűek és nem a legeslegjobb dolgokkal tudnak szolgálni. Ezért mutatunk be 3-3 játékot a közelmúltból.
 
 ## **Tagok**
 - **Dani** 
@@ -20,4 +21,9 @@
         <br>
 ### Mindenki saját css-ban dolgazott, a végén egyesítettük 
 ### Dani hosztolta a git repot 
+
+## **Oldalak**
+### Egy index.html és hat bemutatóoldal található. <br>
+#### A főoldalon található egy rövid szöveg összefoglalva mit is gondolunk a témáról, valamint egy középső menű, ahol lehet ugrálni, de ezt meg lehet tenni a jobbfenti játékok füllel is.<br>
+#### A többi weboldal hasonló céllal készült: bemutatni az adott játékot. Megpróbáltuk a legjobban egyesíteni őket ami nehéz volt, mivel mindenki más típusú játékot mutatott be.
 
